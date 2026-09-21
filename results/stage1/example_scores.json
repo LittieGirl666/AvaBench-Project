@@ -1,0 +1,862 @@
+[
+  {
+    "model": "qwen3-8b",
+    "family": "structural",
+    "case_id": "inventory_fulfillment-sellable_units-00",
+    "pair_id": "structural:inventory_fulfillment-sellable_units-00:sub-operations-no-last:after_penultimate_success",
+    "condition": "x_H",
+    "margin": -27.848802548285434,
+    "candidate_scores": [
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_lot_dates",
+        "sequence_logprob": -80.0630694281579,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__read_bin_inventory",
+        "sequence_logprob": -74.75124824036973,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_projected_demand",
+        "sequence_logprob": -72.58215164289942,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__filter_eligible_bins",
+        "sequence_logprob": -62.0012480758749,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_open_orders",
+        "sequence_logprob": -75.00430057771206,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_reorder_policy",
+        "sequence_logprob": -70.7071516130971,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_on_hand",
+        "sequence_logprob": -62.505249619382816,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__evaluate_all_lines",
+        "sequence_logprob": -62.62785583724396,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__aggregate_on_hand_volume",
+        "sequence_logprob": -82.62652158726206,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__read_source_inventory",
+        "sequence_logprob": -75.30226242530289,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_expiry_policy",
+        "sequence_logprob": -86.68806946267506,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_book_quantity",
+        "sequence_logprob": -79.16280369913221,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__compare_quantities",
+        "sequence_logprob": -78.16272878636737,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__subtract",
+        "sequence_logprob": -40.37501490106006,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__apply_safety_stock",
+        "sequence_logprob": -80.08070909966847,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_priority_policy",
+        "sequence_logprob": -80.62930024079157,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__classify_risk",
+        "sequence_logprob": -97.93751490106007,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__rank_sources",
+        "sequence_logprob": -78.92725849140317,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__rank_orders",
+        "sequence_logprob": -80.6290973423898,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_order_lines",
+        "sequence_logprob": -62.78808020045178,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__read_location_capacity",
+        "sequence_logprob": -91.00152206409922,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_physical_count",
+        "sequence_logprob": -89.91280394037386,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_on_hand",
+        "sequence_logprob": -74.40959896882197,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__rank_pick_bins",
+        "sequence_logprob": -71.12625181664117,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__calculate_shortfall",
+        "sequence_logprob": -69.60694497813603,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__filter_transferable_sources",
+        "sequence_logprob": -73.80225872982173,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_sellable_stock",
+        "sequence_logprob": -67.91308021535295,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_active_reservations",
+        "sequence_logprob": -79.40959906567952,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__calculate_ratio",
+        "sequence_logprob": -73.75152176898638,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_active_reservations",
+        "sequence_logprob": -55.88024984057193,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -59.87501478185078,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -71.62501454343231,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -70.00001513947882,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-8b",
+    "family": "structural",
+    "case_id": "inventory_fulfillment-sellable_units-00",
+    "pair_id": "structural:inventory_fulfillment-sellable_units-00:sub-operations-no-last:after_penultimate_success",
+    "condition": "x_L",
+    "margin": -15.250002927330435,
+    "candidate_scores": [
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_lot_dates",
+        "sequence_logprob": -89.88413390587061,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__read_bin_inventory",
+        "sequence_logprob": -78.93889808352087,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_projected_demand",
+        "sequence_logprob": -82.71724785556563,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__filter_eligible_bins",
+        "sequence_logprob": -73.56389794941043,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_open_orders",
+        "sequence_logprob": -85.75173523569498,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_reorder_policy",
+        "sequence_logprob": -81.2172479244835,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_on_hand",
+        "sequence_logprob": -60.63565497051587,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__evaluate_all_lines",
+        "sequence_logprob": -80.37554633314693,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__aggregate_on_hand_volume",
+        "sequence_logprob": -82.87652992898603,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__read_source_inventory",
+        "sequence_logprob": -85.14092555339427,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_expiry_policy",
+        "sequence_logprob": -94.88413393194764,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_book_quantity",
+        "sequence_logprob": -87.13152500684356,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__compare_quantities",
+        "sequence_logprob": -87.8774462908039,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__subtract",
+        "sequence_logprob": -61.293886062201466,
+        "legal_in_context": false
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__apply_safety_stock",
+        "sequence_logprob": -95.00064110453224,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_priority_policy",
+        "sequence_logprob": -93.00173559435603,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__classify_risk",
+        "sequence_logprob": -105.62551808054542,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__rank_sources",
+        "sequence_logprob": -89.26592528517341,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__rank_orders",
+        "sequence_logprob": -92.37668990786148,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_order_lines",
+        "sequence_logprob": -70.93751382859745,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__read_location_capacity",
+        "sequence_logprob": -86.50152945214887,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_physical_count",
+        "sequence_logprob": -95.1315249919424,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_on_hand",
+        "sequence_logprob": -83.09971856005706,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__rank_pick_bins",
+        "sequence_logprob": -79.8139005869121,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__calculate_shortfall",
+        "sequence_logprob": -86.31249786610698,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__filter_transferable_sources",
+        "sequence_logprob": -85.76592552359193,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_sellable_stock",
+        "sequence_logprob": -74.81251382487216,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_active_reservations",
+        "sequence_logprob": -86.34971856005706,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__calculate_ratio",
+        "sequence_logprob": -75.3765297790431,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_active_reservations",
+        "sequence_logprob": -53.135655159574355,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -40.75049459631552,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -56.00049447710625,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -53.50049435789697,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-4b",
+    "family": "structural",
+    "case_id": "inventory_fulfillment-sellable_units-00",
+    "pair_id": "structural:inventory_fulfillment-sellable_units-00:sub-operations-no-last:after_penultimate_success",
+    "condition": "x_L",
+    "margin": -18.27697235873014,
+    "candidate_scores": [
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_lot_dates",
+        "sequence_logprob": -78.64136049181309,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__read_bin_inventory",
+        "sequence_logprob": -77.00182186804557,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_projected_demand",
+        "sequence_logprob": -70.84250879050285,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__filter_eligible_bins",
+        "sequence_logprob": -67.50166447744425,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_open_orders",
+        "sequence_logprob": -67.7514080926012,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_reorder_policy",
+        "sequence_logprob": -69.09252106900703,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_on_hand",
+        "sequence_logprob": -41.9040373218744,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__evaluate_all_lines",
+        "sequence_logprob": -56.12731563293809,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__aggregate_on_hand_volume",
+        "sequence_logprob": -73.64292120179246,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__read_source_inventory",
+        "sequence_logprob": -71.01179568977,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_expiry_policy",
+        "sequence_logprob": -86.51638369967225,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_book_quantity",
+        "sequence_logprob": -82.12893479452691,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__compare_quantities",
+        "sequence_logprob": -74.25290255884067,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__subtract",
+        "sequence_logprob": -40.91354350907454,
+        "legal_in_context": false
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__apply_safety_stock",
+        "sequence_logprob": -74.12641131116175,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_priority_policy",
+        "sequence_logprob": -89.62643789431627,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__classify_risk",
+        "sequence_logprob": -82.51483779396187,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__rank_sources",
+        "sequence_logprob": -78.38679336751954,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__rank_orders",
+        "sequence_logprob": -81.12648832044192,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_order_lines",
+        "sequence_logprob": -52.31456690450244,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__read_location_capacity",
+        "sequence_logprob": -77.1429231091391,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_physical_count",
+        "sequence_logprob": -89.00393425668824,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_on_hand",
+        "sequence_logprob": -81.93138566608724,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__rank_pick_bins",
+        "sequence_logprob": -81.3768263979581,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__calculate_shortfall",
+        "sequence_logprob": -69.95559394122222,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__filter_transferable_sources",
+        "sequence_logprob": -77.26180230818079,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_sellable_stock",
+        "sequence_logprob": -53.5645663308079,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_active_reservations",
+        "sequence_logprob": -88.3063855096251,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__calculate_ratio",
+        "sequence_logprob": -74.31773551543029,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_active_reservations",
+        "sequence_logprob": -38.279041382440596,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -39.25038619646193,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -57.43796258749671,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -55.50038560041867,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-4b",
+    "family": "structural",
+    "case_id": "inventory_fulfillment-sellable_units-00",
+    "pair_id": "structural:inventory_fulfillment-sellable_units-00:sub-operations-no-last:after_penultimate_success",
+    "condition": "x_H",
+    "margin": -31.72380583768676,
+    "candidate_scores": [
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_lot_dates",
+        "sequence_logprob": -72.63382348793039,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__read_bin_inventory",
+        "sequence_logprob": -74.14326452836866,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_projected_demand",
+        "sequence_logprob": -72.53989682584995,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__filter_eligible_bins",
+        "sequence_logprob": -60.15486298128917,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_open_orders",
+        "sequence_logprob": -61.43762456990669,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__read_reorder_policy",
+        "sequence_logprob": -69.66491290410886,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_on_hand",
+        "sequence_logprob": -53.5042093018335,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__evaluate_all_lines",
+        "sequence_logprob": -57.47419082747739,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__aggregate_on_hand_volume",
+        "sequence_logprob": -68.568347688671,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__read_source_inventory",
+        "sequence_logprob": -68.51295575128836,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__read_expiry_policy",
+        "sequence_logprob": -79.00884246431042,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_book_quantity",
+        "sequence_logprob": -76.5993168171546,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__compare_quantities",
+        "sequence_logprob": -67.97360834109173,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__subtract",
+        "sequence_logprob": -40.50010287382719,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__apply_safety_stock",
+        "sequence_logprob": -70.78814792263279,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__read_priority_policy",
+        "sequence_logprob": -79.68766212004198,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_expiry_risk__classify_risk",
+        "sequence_logprob": -74.37461888792996,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__rank_sources",
+        "sequence_logprob": -74.63795172798166,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_backorder_priority__rank_orders",
+        "sequence_logprob": -71.68762802703799,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_order_lines",
+        "sequence_logprob": -57.23642184959749,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__read_location_capacity",
+        "sequence_logprob": -76.31835281465598,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_cycle_count_variance__read_physical_count",
+        "sequence_logprob": -83.3493161164509,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_on_hand",
+        "sequence_logprob": -77.78886137410723,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_pick_location__rank_pick_bins",
+        "sequence_logprob": -73.26826941591406,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_reorder_quantity__calculate_shortfall",
+        "sequence_logprob": -68.25389264017406,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_replenishment_source__filter_transferable_sources",
+        "sequence_logprob": -70.38796114547483,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_fulfillment_feasibility__read_sellable_stock",
+        "sequence_logprob": -61.986421432365084,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_transferable_units__read_active_reservations",
+        "sequence_logprob": -87.03886127102146,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_capacity_utilization__calculate_ratio",
+        "sequence_logprob": -70.63084053611357,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "inventory_fulfillment__resolve_sellable_units__read_active_reservations",
+        "sequence_logprob": -51.8792171440349,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -58.62508844959348,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -75.62509190665787,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -76.25008785355021,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-8b",
+    "family": "semantic",
+    "case_id": "stateful-pricing_billing-activate_list_price-00",
+    "pair_id": "semantic:stateful-pricing_billing-activate_list_price-00:decoy-observation",
+    "condition": "x_H",
+    "margin": -17.3750016432165,
+    "candidate_scores": [
+      {
+        "candidate_name": "activate_margin_floor",
+        "sequence_logprob": -63.503206471912534,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_list_price",
+        "sequence_logprob": -52.29124764632434,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_margin_floor",
+        "sequence_logprob": -63.41624758671969,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -38.878206233493984,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -56.253206352703266,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -56.253206233493984,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-8b",
+    "family": "semantic",
+    "case_id": "stateful-pricing_billing-activate_list_price-00",
+    "pair_id": "semantic:stateful-pricing_billing-activate_list_price-00:decoy-observation",
+    "condition": "x_L",
+    "margin": -4.625343599096425,
+    "candidate_scores": [
+      {
+        "candidate_name": "activate_margin_floor",
+        "sequence_logprob": -63.28498474881047,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_list_price",
+        "sequence_logprob": -46.885191176086664,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_margin_floor",
+        "sequence_logprob": -51.0101911239326,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -45.039266150437925,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -41.53926579281005,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -36.91426567406643,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-4b",
+    "family": "semantic",
+    "case_id": "stateful-pricing_billing-activate_list_price-00",
+    "pair_id": "semantic:stateful-pricing_billing-activate_list_price-00:decoy-observation",
+    "condition": "x_L",
+    "margin": -13.375018687737217,
+    "candidate_scores": [
+      {
+        "candidate_name": "activate_margin_floor",
+        "sequence_logprob": -61.6258334043232,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_list_price",
+        "sequence_logprob": -63.53869272908196,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_margin_floor",
+        "sequence_logprob": -65.53869381314087,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -51.250666645821184,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -53.75066616898391,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -40.375666407258905,
+        "legal_in_context": true
+      }
+    ]
+  },
+  {
+    "model": "qwen3-4b",
+    "family": "semantic",
+    "case_id": "stateful-pricing_billing-activate_list_price-00",
+    "pair_id": "semantic:stateful-pricing_billing-activate_list_price-00:decoy-observation",
+    "condition": "x_H",
+    "margin": -19.687503218661142,
+    "candidate_scores": [
+      {
+        "candidate_name": "activate_margin_floor",
+        "sequence_logprob": -67.00038631723646,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_list_price",
+        "sequence_logprob": -62.87527248074002,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "resolve_margin_floor",
+        "sequence_logprob": -72.00027474594913,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_finish",
+        "sequence_logprob": -40.500253049857974,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_unavailable",
+        "sequence_logprob": -60.18775603008726,
+        "legal_in_context": true
+      },
+      {
+        "candidate_name": "harness_restart",
+        "sequence_logprob": -55.75025269223261,
+        "legal_in_context": true
+      }
+    ]
+  }
+]

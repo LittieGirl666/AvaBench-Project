@@ -1,0 +1,17 @@
+model,family,control,direction,pairs,effect,paired_effect,fraction_of_paired_pct
+qwen3-4b,structural,same_condition_token_matched,high_to_low,186,-0.26123046875,28.693147786458336,0.910428060016779
+qwen3-4b,structural,same_condition_token_matched,low_to_high,186,-0.08785807291666675,28.695638020833332,0.3061722232935921
+qwen3-4b,structural,token_stratified_random,high_to_low,186,0.8730794270833331,28.693147786458336,3.0428150775962646
+qwen3-4b,structural,token_stratified_random,low_to_high,186,-0.48432617187499993,28.695638020833332,1.6878041586786607
+qwen3-8b,structural,same_condition_token_matched,high_to_low,186,0.6918619791666668,34.229785156249996,2.021227933533612
+qwen3-8b,structural,same_condition_token_matched,low_to_high,186,-0.18785807291666667,34.223925781249996,0.5489086030556642
+qwen3-8b,structural,token_stratified_random,high_to_low,186,1.0834635416666667,34.229785156249996,3.165265387208654
+qwen3-8b,structural,token_stratified_random,low_to_high,186,-0.21468098958333345,34.223925781249996,0.627283354211074
+qwen3-4b,semantic,same_condition_token_matched,high_to_low,350,-0.033928571428571426,18.853750000000005,0.17995662098294196
+qwen3-4b,semantic,same_condition_token_matched,low_to_high,350,3.96508223080413e-18,18.853750000000005,2.1030735163053127e-17
+qwen3-4b,semantic,token_stratified_random,high_to_low,350,0.06964285714285717,18.853750000000005,0.36938464307024943
+qwen3-4b,semantic,token_stratified_random,low_to_high,350,0.02089285714285712,18.853750000000005,0.11081539292107465
+qwen3-8b,semantic,same_condition_token_matched,high_to_low,350,0.10214285714285709,21.584642857142857,0.47322004732200446
+qwen3-8b,semantic,same_condition_token_matched,low_to_high,350,0.018928571428571458,21.582857142857144,0.08770187979878223
+qwen3-8b,semantic,token_stratified_random,high_to_low,350,0.003571428571428597,21.584642857142857,0.016546155500769516
+qwen3-8b,semantic,token_stratified_random,low_to_high,350,-0.0532142857142857,21.582857142857144,0.24655811490601

@@ -1,0 +1,18 @@
+\begin{tabular}{llrrrrrr}
+\toprule
+Model & Condition & Cases & Accuracy (\%) & Finish & Unavailable & Exhausted & Wrong state \\
+\midrule
+glm-5.2 & Decoy fails & 350 & 82.86 & 0 & 290 & 60 & 0 \\
+glm-5.2 & Decoy succeeds & 350 & 59.43 & 0 & 208 & 142 & 99 \\
+glm-5.2 & Gold + decoy & 350 & 96.86 & 339 & 2 & 9 & 0 \\
+glm-5.2 & Gold only & 350 & 99.43 & 348 & 2 & 0 & 0 \\
+deepseek-v4-flash & Decoy fails & 350 & 41.14 & 0 & 144 & 206 & 0 \\
+deepseek-v4-flash & Decoy succeeds & 350 & 21.14 & 0 & 74 & 276 & 171 \\
+deepseek-v4-flash & Gold + decoy & 350 & 81.14 & 284 & 26 & 40 & 1 \\
+deepseek-v4-flash & Gold only & 350 & 86.29 & 302 & 24 & 24 & 0 \\
+qwen3.5-27b & Decoy fails & 350 & 98.86 & 0 & 346 & 4 & 0 \\
+qwen3.5-27b & Decoy succeeds & 350 & 78.00 & 0 & 273 & 77 & 122 \\
+qwen3.5-27b & Gold + decoy & 350 & 89.71 & 314 & 35 & 1 & 0 \\
+qwen3.5-27b & Gold only & 350 & 88.00 & 308 & 41 & 1 & 0 \\
+\bottomrule
+\end{tabular}

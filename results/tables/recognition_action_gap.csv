@@ -1,0 +1,3 @@
+model,pairs,exhausted,exhausted_with_increase,exhausted_with_negative_margin
+qwen3-4b,204,192,186,192
+qwen3-8b,319,286,267,286

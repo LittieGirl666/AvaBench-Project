@@ -1,0 +1,1484 @@
+{
+  "model": "qwen3-4b",
+  "eligible_case_ids": [
+    "compliance_audit-audit_sample-00",
+    "compliance_audit-audit_sample-02",
+    "compliance_audit-audit_sample-03",
+    "compliance_audit-audit_sample-04",
+    "compliance_audit-evidence_completeness-00",
+    "compliance_audit-evidence_completeness-01",
+    "compliance_audit-evidence_completeness-04",
+    "compliance_audit-exception_expiry-01",
+    "compliance_audit-exception_expiry-02",
+    "compliance_audit-exception_expiry-03",
+    "compliance_audit-exception_expiry-04",
+    "compliance_audit-filing_readiness-00",
+    "compliance_audit-filing_readiness-01",
+    "compliance_audit-filing_readiness-03",
+    "compliance_audit-filing_readiness-04",
+    "compliance_audit-policy_applicability-00",
+    "compliance_audit-policy_applicability-02",
+    "compliance_audit-policy_applicability-03",
+    "compliance_audit-remediation_owner-00",
+    "compliance_audit-remediation_owner-02",
+    "compliance_audit-remediation_owner-04",
+    "compliance_audit-retention_deadline-01",
+    "compliance_audit-retention_deadline-02",
+    "compliance_audit-retention_deadline-03",
+    "compliance_audit-retention_deadline-04",
+    "compliance_audit-risk_rating-00",
+    "compliance_audit-risk_rating-01",
+    "compliance_audit-risk_rating-02",
+    "compliance_audit-risk_rating-03",
+    "compliance_audit-risk_rating-04",
+    "compliance_audit-segregation_conflict-00",
+    "compliance_audit-segregation_conflict-01",
+    "compliance_audit-segregation_conflict-02",
+    "compliance_audit-segregation_conflict-03",
+    "compliance_audit-segregation_conflict-04",
+    "contracts_documents-amendment_impact-00",
+    "contracts_documents-amendment_impact-01",
+    "contracts_documents-amendment_impact-02",
+    "contracts_documents-amendment_impact-03",
+    "contracts_documents-amendment_impact-04",
+    "contracts_documents-citation_target-00",
+    "contracts_documents-citation_target-01",
+    "contracts_documents-citation_target-02",
+    "contracts_documents-citation_target-03",
+    "contracts_documents-citation_target-04",
+    "contracts_documents-contract_deadline-00",
+    "contracts_documents-contract_deadline-02",
+    "contracts_documents-contract_deadline-04",
+    "contracts_documents-effective_clause-00",
+    "contracts_documents-effective_clause-01",
+    "contracts_documents-effective_clause-02",
+    "contracts_documents-effective_clause-04",
+    "contracts_documents-latest_version-00",
+    "contracts_documents-latest_version-01",
+    "contracts_documents-latest_version-03",
+    "contracts_documents-latest_version-04",
+    "contracts_documents-obligation_owner-02",
+    "contracts_documents-obligation_owner-04",
+    "contracts_documents-retention_class-00",
+    "contracts_documents-retention_class-02",
+    "contracts_documents-retention_class-03",
+    "contracts_documents-retention_class-04",
+    "contracts_documents-section_summary-01",
+    "contracts_documents-section_summary-02",
+    "contracts_documents-section_summary-03",
+    "contracts_documents-section_summary-04",
+    "contracts_documents-signature_status-00",
+    "contracts_documents-signature_status-03",
+    "contracts_documents-signature_status-04",
+    "customer_support-case_owner-03",
+    "customer_support-case_priority-02",
+    "customer_support-case_priority-03",
+    "customer_support-case_priority-04",
+    "customer_support-contact_channel-00",
+    "customer_support-contact_channel-01",
+    "customer_support-contact_channel-02",
+    "customer_support-contact_channel-04",
+    "customer_support-escalation_target-00",
+    "customer_support-escalation_target-02",
+    "customer_support-escalation_target-03",
+    "customer_support-escalation_target-04",
+    "customer_support-next_action-00",
+    "customer_support-next_action-01",
+    "customer_support-next_action-02",
+    "customer_support-next_action-04",
+    "customer_support-refund_eligibility-00",
+    "customer_support-refund_eligibility-02",
+    "customer_support-refund_eligibility-04",
+    "customer_support-service_entitlement-02",
+    "finance_ledger-available_balance-01",
+    "finance_ledger-book_balance-00",
+    "finance_ledger-book_balance-02",
+    "finance_ledger-book_balance-03",
+    "finance_ledger-budget_variance-00",
+    "finance_ledger-budget_variance-01",
+    "finance_ledger-budget_variance-03",
+    "finance_ledger-budget_variance-04",
+    "finance_ledger-fx_settlement-00",
+    "finance_ledger-fx_settlement-01",
+    "finance_ledger-fx_settlement-03",
+    "finance_ledger-fx_settlement-04",
+    "finance_ledger-journal_total-04",
+    "finance_ledger-reconciliation_status-02",
+    "finance_ledger-reconciliation_status-04",
+    "finance_ledger-tax_basis-00",
+    "finance_ledger-transaction_fee-00",
+    "finance_ledger-transaction_fee-01",
+    "finance_ledger-transaction_fee-03",
+    "finance_ledger-transaction_fee-04",
+    "inventory_fulfillment-backorder_priority-02",
+    "inventory_fulfillment-backorder_priority-04",
+    "inventory_fulfillment-capacity_utilization-01",
+    "inventory_fulfillment-capacity_utilization-02",
+    "inventory_fulfillment-capacity_utilization-03",
+    "inventory_fulfillment-capacity_utilization-04",
+    "inventory_fulfillment-cycle_count_variance-02",
+    "inventory_fulfillment-expiry_risk-00",
+    "inventory_fulfillment-expiry_risk-01",
+    "inventory_fulfillment-expiry_risk-02",
+    "inventory_fulfillment-pick_location-01",
+    "inventory_fulfillment-pick_location-03",
+    "inventory_fulfillment-reorder_quantity-01",
+    "inventory_fulfillment-reorder_quantity-02",
+    "inventory_fulfillment-replenishment_source-00",
+    "inventory_fulfillment-replenishment_source-02",
+    "inventory_fulfillment-replenishment_source-03",
+    "inventory_fulfillment-replenishment_source-04",
+    "inventory_fulfillment-sellable_units-00",
+    "inventory_fulfillment-sellable_units-04",
+    "inventory_fulfillment-transferable_units-03",
+    "inventory_fulfillment-transferable_units-04",
+    "pricing_billing-contract_price-03",
+    "pricing_billing-credit_adjustment-04",
+    "pricing_billing-currency_amount-00",
+    "pricing_billing-currency_amount-04",
+    "pricing_billing-list_price-01",
+    "pricing_billing-list_price-02",
+    "pricing_billing-list_price-03",
+    "pricing_billing-list_price-04",
+    "pricing_billing-margin_floor-01",
+    "pricing_billing-order_total-01",
+    "pricing_billing-promotional_price-00",
+    "pricing_billing-promotional_price-02",
+    "pricing_billing-service_fee-01",
+    "pricing_billing-service_fee-02",
+    "pricing_billing-service_fee-03",
+    "pricing_billing-shipping_charge-00",
+    "pricing_billing-shipping_charge-01",
+    "pricing_billing-shipping_charge-02",
+    "pricing_billing-shipping_charge-03",
+    "pricing_billing-shipping_charge-04",
+    "pricing_billing-tax_amount-00",
+    "pricing_billing-tax_amount-03",
+    "procurement_suppliers-contract_compliance-00",
+    "procurement_suppliers-contract_compliance-03",
+    "procurement_suppliers-contract_compliance-04",
+    "procurement_suppliers-expedite_decision-00",
+    "procurement_suppliers-expedite_decision-01",
+    "procurement_suppliers-expedite_decision-02",
+    "procurement_suppliers-expedite_decision-03",
+    "procurement_suppliers-lead_time-00",
+    "procurement_suppliers-lead_time-01",
+    "procurement_suppliers-lead_time-02",
+    "procurement_suppliers-purchase_limit-01",
+    "procurement_suppliers-purchase_limit-03",
+    "procurement_suppliers-quote_rank-02",
+    "procurement_suppliers-quote_rank-03",
+    "procurement_suppliers-quote_rank-04",
+    "procurement_suppliers-receipt_variance-01",
+    "procurement_suppliers-return_authorization-02",
+    "procurement_suppliers-return_authorization-03",
+    "procurement_suppliers-supplier_eligibility-00",
+    "procurement_suppliers-supplier_eligibility-01",
+    "procurement_suppliers-supplier_eligibility-02",
+    "procurement_suppliers-supplier_eligibility-03",
+    "procurement_suppliers-vendor_score-00",
+    "procurement_suppliers-vendor_score-02",
+    "procurement_suppliers-vendor_score-03",
+    "procurement_suppliers-vendor_score-04",
+    "workforce_access-access_decision-00",
+    "workforce_access-access_decision-04",
+    "workforce_access-badge_expiry-00",
+    "workforce_access-badge_expiry-01",
+    "workforce_access-badge_expiry-02",
+    "workforce_access-badge_expiry-03",
+    "workforce_access-badge_expiry-04",
+    "workforce_access-delegation_scope-01",
+    "workforce_access-delegation_scope-02",
+    "workforce_access-delegation_scope-03",
+    "workforce_access-leave_balance-00",
+    "workforce_access-leave_balance-01",
+    "workforce_access-leave_balance-02",
+    "workforce_access-leave_balance-03",
+    "workforce_access-leave_balance-04",
+    "workforce_access-offboarding_actions-01",
+    "workforce_access-offboarding_actions-04",
+    "workforce_access-oncall_assignment-00",
+    "workforce_access-oncall_assignment-01",
+    "workforce_access-oncall_assignment-02",
+    "workforce_access-oncall_assignment-03",
+    "workforce_access-role_assignment-00",
+    "workforce_access-role_assignment-01",
+    "workforce_access-role_assignment-02",
+    "workforce_access-role_assignment-04",
+    "workforce_access-shift_eligibility-00",
+    "workforce_access-shift_eligibility-01",
+    "workforce_access-shift_eligibility-03",
+    "workforce_access-shift_eligibility-04",
+    "workforce_access-training_requirement-02",
+    "workforce_access-training_requirement-03",
+    "workforce_access-training_requirement-04"
+  ],
+  "phenotypes": {
+    "compliance_audit-audit_sample-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-audit_sample-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-audit_sample-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-audit_sample-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-evidence_completeness-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-evidence_completeness-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-evidence_completeness-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-exception_expiry-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-exception_expiry-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-exception_expiry-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-exception_expiry-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-filing_readiness-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-filing_readiness-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-filing_readiness-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-filing_readiness-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-policy_applicability-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-policy_applicability-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-policy_applicability-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-remediation_owner-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-remediation_owner-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-remediation_owner-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-retention_deadline-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-retention_deadline-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-retention_deadline-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-retention_deadline-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-risk_rating-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-risk_rating-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-risk_rating-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-risk_rating-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-risk_rating-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-segregation_conflict-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-segregation_conflict-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-segregation_conflict-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-segregation_conflict-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "compliance_audit-segregation_conflict-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-amendment_impact-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-amendment_impact-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-amendment_impact-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "contracts_documents-amendment_impact-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-amendment_impact-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-citation_target-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-citation_target-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-citation_target-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-citation_target-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-citation_target-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-contract_deadline-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-contract_deadline-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-contract_deadline-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-effective_clause-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-effective_clause-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-effective_clause-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-effective_clause-04": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-latest_version-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-latest_version-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-latest_version-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-latest_version-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-obligation_owner-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-obligation_owner-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-retention_class-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "contracts_documents-retention_class-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-retention_class-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-retention_class-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-section_summary-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-section_summary-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-section_summary-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-section_summary-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-signature_status-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-signature_status-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "contracts_documents-signature_status-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-case_owner-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-case_priority-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-case_priority-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-case_priority-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-contact_channel-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-contact_channel-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-contact_channel-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-contact_channel-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-escalation_target-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-escalation_target-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "customer_support-escalation_target-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-escalation_target-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-next_action-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-next_action-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-next_action-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-next_action-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-refund_eligibility-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-refund_eligibility-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "customer_support-refund_eligibility-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "customer_support-service_entitlement-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-available_balance-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-book_balance-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "finance_ledger-book_balance-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-book_balance-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-budget_variance-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-budget_variance-01": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-budget_variance-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-budget_variance-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-fx_settlement-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-fx_settlement-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-fx_settlement-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-fx_settlement-04": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-journal_total-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-reconciliation_status-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-reconciliation_status-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-tax_basis-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-transaction_fee-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-transaction_fee-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-transaction_fee-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "finance_ledger-transaction_fee-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-backorder_priority-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-backorder_priority-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-capacity_utilization-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-capacity_utilization-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-capacity_utilization-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-capacity_utilization-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-cycle_count_variance-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "inventory_fulfillment-expiry_risk-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-expiry_risk-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-expiry_risk-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-pick_location-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-pick_location-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-reorder_quantity-01": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-reorder_quantity-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-replenishment_source-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-replenishment_source-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-replenishment_source-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-replenishment_source-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-sellable_units-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-sellable_units-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-transferable_units-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "inventory_fulfillment-transferable_units-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-contract_price-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-credit_adjustment-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-currency_amount-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-currency_amount-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-list_price-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-list_price-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-list_price-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-list_price-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-margin_floor-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "pricing_billing-order_total-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-promotional_price-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-promotional_price-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-service_fee-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-service_fee-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-service_fee-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-shipping_charge-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-shipping_charge-01": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-shipping_charge-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-shipping_charge-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-shipping_charge-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-tax_amount-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "pricing_billing-tax_amount-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-contract_compliance-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-contract_compliance-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-contract_compliance-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-expedite_decision-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-expedite_decision-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-expedite_decision-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-expedite_decision-03": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-lead_time-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-lead_time-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-lead_time-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-purchase_limit-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-purchase_limit-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-quote_rank-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-quote_rank-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-quote_rank-04": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-receipt_variance-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "procurement_suppliers-return_authorization-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-return_authorization-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "procurement_suppliers-supplier_eligibility-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "procurement_suppliers-supplier_eligibility-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-supplier_eligibility-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-supplier_eligibility-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-vendor_score-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-vendor_score-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-vendor_score-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "procurement_suppliers-vendor_score-04": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-access_decision-00": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-access_decision-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-badge_expiry-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-badge_expiry-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-badge_expiry-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-badge_expiry-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-badge_expiry-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-delegation_scope-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-delegation_scope-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-delegation_scope-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-leave_balance-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-leave_balance-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-leave_balance-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-leave_balance-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-leave_balance-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-offboarding_actions-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-offboarding_actions-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-oncall_assignment-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "unavailable"
+    },
+    "workforce_access-oncall_assignment-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-oncall_assignment-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-oncall_assignment-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-role_assignment-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-role_assignment-01": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-role_assignment-02": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "unavailable"
+    },
+    "workforce_access-role_assignment-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-shift_eligibility-00": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-shift_eligibility-01": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-shift_eligibility-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "unavailable",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-shift_eligibility-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "unavailable",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-training_requirement-02": {
+      "sub-operations-first-only": "unavailable",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-training_requirement-03": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    },
+    "workforce_access-training_requirement-04": {
+      "sub-operations-first-only": "budget_exhausted",
+      "sub-operations-no-first": "budget_exhausted",
+      "sub-operations-no-gold": "budget_exhausted",
+      "sub-operations-no-last": "budget_exhausted"
+    }
+  }
+}
