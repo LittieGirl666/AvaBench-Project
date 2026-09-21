@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avabench"
+version = "0.1.0"
+description = "Controlled tool environments and mechanistic experiments for task reachability"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["numpy==1.26.4", "pandas==2.2.3", "matplotlib==3.10.1"]
+mechanisms = ["torch==2.6.0", "transformers==4.51.0", "accelerate==1.6.0", "safetensors==0.5.3", "tokenizers==0.21.1", "numpy==1.26.4", "scipy==1.15.2"]
+
+[tool.setuptools]
+py-modules = ["common"]
+package-dir = {envtoolbench = "src/envtoolbench"}
+
+[tool.setuptools.packages.find]
+where = [".", "src"]
+include = ["envtoolbench*", "environments*", "stage1*", "stage2*", "analysis*"]
+namespaces = false

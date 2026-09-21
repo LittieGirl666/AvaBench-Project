@@ -1,0 +1,12 @@
+{
+  "qwen3-8b": {
+    "model_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "local_path": "models/Qwen3-8B"
+  },
+  "qwen3-4b": {
+    "model_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "local_path": "models/Qwen3-4B"
+  }
+}

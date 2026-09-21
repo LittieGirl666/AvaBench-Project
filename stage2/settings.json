@@ -1,0 +1,9 @@
+{
+  "late_blocks": {
+    "qwen3-8b": {"structural": [21, 35], "semantic": [19, 35]},
+    "qwen3-4b": {"structural": [20, 35], "semantic": [18, 35]}
+  },
+  "comparison_block": 35,
+  "replacement_strength": 1.0,
+  "directions": ["high_to_low", "low_to_high"]
+}
